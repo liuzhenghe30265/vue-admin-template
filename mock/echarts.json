@@ -1,0 +1,59 @@
+{
+  "code": 20000,
+  "lineChartData": {
+    "total": 3,
+    "items": [{
+      "name": "趋势1",
+      "type": "line",
+      "smooth": true,
+      "data": [100, 200, 300, 200, 400, 700, 600, 300, 800, 1000]
+    }, {
+      "name": "趋势2",
+      "type": "line",
+      "smooth": true,
+      "data": [200, 600, 500, 600, 800, 700, 900, 800, 800, 900]
+    }, {
+      "name": "趋势3",
+      "type": "line",
+      "smooth": true,
+      "data": [500, 600, 700, 800, 900, 1000, 1200, 1300, 1400, 1500]
+    }]
+  },
+  "barChartData": {
+    "total": 3,
+    "items": [{
+        "name": "Forest",
+        "type": "bar",
+        "barGap": 0,
+        "data": [320, 332, 301, 334, 390]
+      },
+      {
+        "name": "Steppe",
+        "type": "bar",
+        "data": [220, 182, 300, 234, 190]
+      },
+      {
+        "name": "Desert",
+        "type": "bar",
+        "data": [150, 232, 100, 154, 190]
+      }
+    ]
+  },
+  "pieChartData": {
+    "total": 3,
+    "items": [{
+        "value": 100,
+        "name": "北京"
+      },
+      {
+        "value": 200,
+        "name": "上海"
+      },
+      {
+        "value": 300,
+        "name": "广东"
+      }
+
+    ]
+  }
+}

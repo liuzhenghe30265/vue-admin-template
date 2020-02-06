@@ -28,6 +28,15 @@ const projectNote = {
       icon: 'el-icon-more',
       noCache: true
     }
+  }, {
+    path: '/echarts',
+    component: () => import('@/views/work-notes/echarts/index'),
+    name: 'ECharts',
+    meta: {
+      title: 'ECharts',
+      icon: 'el-icon-pie-chart',
+      noCache: true
+    }
   }]
 }
 export default projectNote
