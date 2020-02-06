@@ -3,7 +3,7 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-06 11:10:13
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-06 17:13:13
+ * @Last Modified time: 2020-02-06 17:20:34
  * @Description: ECharts
  */
 
@@ -19,7 +19,7 @@
           </div>
           <div class="demo_link">
             <el-link
-              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/echarts/components/ChartTypeLine/index.vue"
+              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/echarts/components/chartTypeLine.vue"
               target="_blank"
             >
               <i class="el-icon-link"></i>
@@ -36,7 +36,7 @@
           </div>
           <div class="demo_link">
             <el-link
-              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/echarts/components/ChartTypePie/index.vue"
+              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/echarts/components/chartTypePie.vue"
               target="_blank"
             >
               <i class="el-icon-link"></i>
@@ -53,7 +53,7 @@
           </div>
           <div class="demo_link">
             <el-link
-              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/echarts/components/ChartTypeBar/index.vue"
+              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/echarts/components/chartTypeBar.vue"
               target="_blank"
             >
               <i class="el-icon-link"></i>
@@ -70,7 +70,7 @@
           </div>
           <div class="demo_link">
             <el-link
-              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/echarts/components/ChartTypeBarDouble/index.vue"
+              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/echarts/components/chartTypeBarDouble.vue"
               target="_blank"
             >
               <i class="el-icon-link"></i>
