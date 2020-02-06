@@ -1,8 +1,8 @@
-@import './variables.scss';
-@import './mixin.scss';
-@import './transition.scss';
-@import './element-ui.scss';
-@import './sidebar.scss';
+@import "./variables.scss";
+@import "./mixin.scss";
+@import "./transition.scss";
+@import "./element-ui.scss";
+@import "./sidebar.scss";
 
 body {
   height: 100%;
@@ -20,7 +20,70 @@ html {
   height: 100%;
   box-sizing: border-box;
 }
-
+body,
+form,
+input,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+th,
+td,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+dl,
+dt,
+dd {
+  display: block;
+}
+a {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  outline: none;
+}
+input,
+textarea {
+  font: 14px "microsoft Yahei", "Arial", sans-serif;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+}
+table {
+  border-collapse: collapse;
+}
+i {
+  font-style: normal;
+}
+b {
+  font-weight: normal;
+}
+.hidden {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 #app {
   height: 100%;
 }
@@ -62,4 +125,33 @@ div:focus {
 // main-container global css
 .app-container {
   padding: 20px;
+}
+
+.demo_container {
+  olor: #1f2f3d;
+  .el-col{
+    padding: 0 10px;
+  }
+  padding: 20px;
+  .demo_title {
+    margin: 10px 0;
+    
+  }
+  .demo_txt{
+    margin: 10px 0;
+    color: #97a8be;
+  }
+  .demo_con {
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    .demo_main{
+
+    }
+    .demo_link{
+      i{
+        font-size: 24px;
+      }
+    }
+  }
 }
