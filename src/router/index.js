@@ -59,6 +59,17 @@ export const constantRoutes = [
   workNotes, // 工作笔记路由
 
   {
+    path: 'blog',
+    component: Layout,
+    children: [
+      {
+        path: 'http://blog.liuzhenghe.com/',
+        meta: { title: '个人博客', icon: 'el-icon-link' }
+      }
+    ]
+  },
+
+  {
     path: '/example',
     component: Layout,
     redirect: '/example/table',
@@ -147,17 +158,6 @@ export const constantRoutes = [
         path: 'menu2',
         component: () => import('@/views/nested/menu2/index'),
         meta: { title: 'menu2' }
-      }
-    ]
-  },
-
-  {
-    path: 'blog',
-    component: Layout,
-    children: [
-      {
-        path: 'http://blog.liuzhenghe.com/',
-        meta: { title: '博客', icon: 'el-icon-link' }
       }
     ]
   },
