@@ -3,16 +3,16 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-06 11:10:13
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-06 17:20:34
+ * @Last Modified time: 2020-02-06 17:23:26
  * @Description: ECharts
  */
 
 <template>
   <div class="demo_container">
     <el-row>
-      <el-col :span="12">
+      <el-col :span="12" :xs="24">
         <h3 class="demo_title">折线图</h3>
-        <h5 class="demo_txt">111</h5>
+        <h5 class="demo_txt"></h5>
         <div class="demo_con">
           <div class="demo_main">
             <chart-type-line :series="lineChartData" style="width:100%;height:250px;" />
@@ -27,7 +27,7 @@
           </div>
         </div>
       </el-col>
-      <el-col :span="12">
+      <el-col :span="12" :xs="24">
         <h3 class="demo_title">饼图</h3>
         <h5 class="demo_txt"></h5>
         <div class="demo_con">
@@ -44,7 +44,7 @@
           </div>
         </div>
       </el-col>
-      <el-col :span="12">
+      <el-col :span="12" :xs="24">
         <h3 class="demo_title">柱状图</h3>
         <h5 class="demo_txt"></h5>
         <div class="demo_con">
@@ -61,7 +61,7 @@
           </div>
         </div>
       </el-col>
-      <el-col :span="12">
+      <el-col :span="12" :xs="24">
         <h3 class="demo_title">双柱状图</h3>
         <h5 class="demo_txt"></h5>
         <div class="demo_con">

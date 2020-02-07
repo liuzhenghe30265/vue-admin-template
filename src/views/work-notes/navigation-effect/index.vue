@@ -3,14 +3,14 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-06 00:52:41
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-06 11:05:50
+ * @Last Modified time: 2020-02-06 19:37:17
  * @Description: 导航效果
  */
 
 <template>
   <div class="demo_container">
     <el-row>
-      <el-col :span="12">
+      <el-col :span="12" :xs="24">
         <h3 class="demo_title">自定义导航切换效果1</h3>
         <h5 class="demo_txt">点击当前标签变色，再次点击取消变色，兄弟元素取消变色。</h5>
         <div class="demo_con">
@@ -31,7 +31,7 @@
           </div>
         </div>
       </el-col>
-      <el-col :span="12">
+      <el-col :span="12" :xs="24">
         <h3 class="demo_title">自定义导航切换效果2</h3>
         <h5 class="demo_txt">所有点击过的都变色，再次点击取消变色。</h5>
         <div class="demo_con">
