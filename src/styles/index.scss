@@ -55,7 +55,6 @@ dd {
   display: block;
 }
 a {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
   outline: none;
@@ -119,6 +118,19 @@ div:focus {
     content: " ";
     clear: both;
     height: 0;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 1300px) {
+  .tr_sc {
+    display: block;
+    overflow: hidden;
+  }
+  .tr_sc img {
+    transition: transform 0.4s;
+  }
+  .tr_sc:hover img {
+    transition-delay: 0.05s;
+    transform: scale(1.1, 1.1);
   }
 }
 

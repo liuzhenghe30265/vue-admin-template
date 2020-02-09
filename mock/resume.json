@@ -1,0 +1,178 @@
+{
+  "code": 20000,
+  "educationData": {
+    "name": "教育情况",
+    "schoolName": "内蒙古师范大学",
+    "date": "2013 —— 2017",
+    "professional": "计算机科学与技术（网络编程）",
+    "pictures": [{
+        "name": "毕业证书",
+        "url": "https://tva1.sinaimg.cn/large/0082zybply1gbotcu6bftj30lc0fpt9j.jpg"
+      },
+      {
+        "name": "学士学位证书",
+        "url": "https://tva1.sinaimg.cn/large/0082zybply1gbotdww6o5j30lc0fj75g.jpg"
+      }
+    ]
+  },
+  "skillLevels": {
+    "name": "技能水平",
+    "pictures": [{
+        "name": "毕业证书",
+        "url": "https://tva1.sinaimg.cn/large/0082zybply1gbotcu6bftj30lc0fpt9j.jpg"
+      },
+      {
+        "name": "学士学位证书",
+        "url": "https://tva1.sinaimg.cn/large/0082zybply1gbotdww6o5j30lc0fj75g.jpg"
+      }
+    ]
+  },
+  "workExperience": {
+    "name": "工作经验",
+    "pictures": [{
+        "name": "毕业证书",
+        "url": "https://tva1.sinaimg.cn/large/0082zybply1gbotcu6bftj30lc0fpt9j.jpg"
+      },
+      {
+        "name": "学士学位证书",
+        "url": "https://tva1.sinaimg.cn/large/0082zybply1gbotdww6o5j30lc0fj75g.jpg"
+      }
+    ]
+  },
+  "projectExperience": {
+    "name": "项目经历",
+    "items": [{
+        "url": "http://www.longdeyanyuan.com/",
+        "name": "龙德燕园基金",
+        "date": "2018-08-30",
+        "intro": "",
+        "technology": [
+          "PC + 响应式合成，CMS标签嵌套。",
+          " HTML、CSS、JavaScript、jQuery。",
+          "使用 Ajax 实现点击加载更多效果。"
+        ],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbpyhqtu6jj30yg0fy0v0.jpg"
+      },
+      {
+        "url": "http://www.longdeyanyuan.com/",
+        "name": "昊然伟业",
+        "date": "2018-08-15",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbpylfw9csj30u0215hdt.jpg"
+      },
+      {
+        "url": "",
+        "name": "博奥森",
+        "date": "2018-08-09",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbpzd1d8hzj30yg0g5401.jpg"
+      },
+      {
+        "url": "http://www.maxictech.com/",
+        "name": "美芯晟科技",
+        "date": "2018-07-30",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybpgy1gbq6zs6fk5j30u01le4qp.jpg"
+      },
+      {
+        "url": "http://www.daxinziben.com/",
+        "name": "大信资本",
+        "date": "2018-07-09",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybpgy1gbq6zsqxjvj30yg0gxn0l.jpg"
+      },
+      {
+        "url": "http://www.cits.net/",
+        "name": "中国国旅",
+        "date": "2018-06-11",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybpgy1gbq746c9j4j30u0215u0y.jpg"
+      },
+      {
+        "url": "http://zhonglv.xmfeel.com/",
+        "name": "中旅总社",
+        "date": "2018-05-08",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq781g8oyj30u0215b2b.jpg"
+      },
+      {
+        "url": "http://www.lflawoffice.cn/",
+        "name": "立丰律师事务所",
+        "date": "2018-04-16",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq7a0cejbj30u0215hdv.jpg"
+      },
+      {
+        "url": "http://hongyuhuicai.com",
+        "name": "泓钰汇财",
+        "date": "2018-03-07",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq7lvyas2j308w0cl0t6.jpg"
+      },
+      {
+        "url": "http://haisbaby.com",
+        "name": "丰信达科技",
+        "date": "2018-03-23",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq7dsc7mmj31m50u0dzb.jpg"
+      },
+      {
+        "url": "",
+        "name": "北京杜润生物科技",
+        "date": "2018-01-3",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq7ne0fs9j30yg0h2t9n.jpg"
+      },
+      {
+        "url": "http://jingchenggroups.com/",
+        "name": "京诚集团",
+        "date": "2017-12-13",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq7p72fdsj30u01zh4qq.jpg"
+      },
+      {
+        "url": "https://chemnews.com.cn/",
+        "name": "中国化工信息",
+        "date": "2017-10-20",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq7s0s4l5j30u01751jb.jpg"
+      },
+      {
+        "url": "https://m.zbgedu.com/",
+        "name": "中博教育",
+        "date": "2017-10-10",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq7uo5p1mj30u0215hdt.jpg"
+      },
+      {
+        "url": "http://www.hongkunwealth.com/",
+        "name": "北京鸿坤伟业房地产开发有限公司",
+        "date": "2017-09-18",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq7x67d04j30u0215b2a.jpg"
+      },
+      {
+        "url": "http://www.pride-power.com/",
+        "name": "北京普莱德新能源电池科技有限公司",
+        "date": "2017-09-06",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/0082zybply1gbq8089d44j30u01leqmk.jpg"
+      }
+    ]
+  }
+}
