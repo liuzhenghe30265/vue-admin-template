@@ -141,13 +141,14 @@ div:focus {
 
 .demo_container {
   color: #1f2f3d;
+  padding: 20px;
   .el-col {
     padding: 0 10px;
     margin-bottom: 20px;
   }
-  padding: 20px;
-  .demo_title {
-    margin: 10px 0;
+  /deep/ .el-divider__text {
+    font-weight: bold;
+    font-size: 18px;
   }
   .demo_txt {
     margin: 10px 0;

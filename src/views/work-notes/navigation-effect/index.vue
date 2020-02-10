@@ -3,7 +3,7 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-06 00:52:41
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-06 19:37:17
+ * @Last Modified time: 2020-02-09 22:05:50
  * @Description: 导航效果
  */
 
@@ -11,7 +11,7 @@
   <div class="demo_container">
     <el-row>
       <el-col :span="12" :xs="24">
-        <h3 class="demo_title">自定义导航切换效果1</h3>
+        <el-divider content-position="left">自定义导航切换效果1</el-divider>
         <h5 class="demo_txt">点击当前标签变色，再次点击取消变色，兄弟元素取消变色。</h5>
         <div class="demo_con">
           <div class="demo_main nav_demo_main">
@@ -25,14 +25,17 @@
             </ul>
           </div>
           <div class="demo_link">
-            <el-link href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/navigation-effect/index.vue" target="_blank">
+            <el-link
+              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/navigation-effect/index.vue"
+              target="_blank"
+            >
               <i class="el-icon-link"></i>
             </el-link>
           </div>
         </div>
       </el-col>
       <el-col :span="12" :xs="24">
-        <h3 class="demo_title">自定义导航切换效果2</h3>
+        <el-divider content-position="left">自定义导航切换效果2</el-divider>
         <h5 class="demo_txt">所有点击过的都变色，再次点击取消变色。</h5>
         <div class="demo_con">
           <div class="demo_main nav_demo_main">
@@ -46,7 +49,10 @@
             </ul>
           </div>
           <div class="demo_link">
-            <el-link href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/navigation-effect/index.vue" target="_blank">
+            <el-link
+              href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/navigation-effect/index.vue"
+              target="_blank"
+            >
               <i class="el-icon-link"></i>
             </el-link>
           </div>

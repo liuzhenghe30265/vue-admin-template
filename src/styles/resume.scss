@@ -3,11 +3,11 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-09 16:34:15
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-09 17:35:46
+ * @Last Modified time: 2020-02-09 21:39:12
  * @Description: Description
  */
 
-.project_con {
+.picture_con {
   .el-row {
     .el-col {
       .pc_con {
@@ -18,7 +18,7 @@
           height: 250px;
           padding: 10px;
         }
-        .project_txt {
+        .picture_txt {
           position: absolute;
           bottom: 0;
           left: 0;
@@ -33,17 +33,16 @@
               font-weight: bold;
               padding: 5px 0;
             }
-            .pi_date {}
-            .pi_link{
-                position: absolute;
-                right: 10px;
-                top: 50%;
-                font-size: 24px;
-                margin-top: -12px;
+            .pi_date {
+                font-size: 12px;
             }
-          }
-          a:hover {
-            color: #409eff;
+            .pi_link {
+              position: absolute;
+              right: 10px;
+              top: 50%;
+              font-size: 24px;
+              margin-top: -12px;
+            }
           }
         }
       }
@@ -51,10 +50,15 @@
   }
 }
 @media screen and (max-width: 758px) {
-  .resume_con {
-    .image_con {
-      width: 100%;
-      height: auto;
+  .picture_con {
+    .el-row {
+      .el-col {
+        .pc_con {
+          .image_con {
+            height: auto;
+          }
+        }
+      }
     }
   }
 }

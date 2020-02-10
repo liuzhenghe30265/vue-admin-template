@@ -11,7 +11,7 @@
   <div class="demo_container">
     <el-row>
       <el-col :span="12" :xs="24">
-        <h3 class="demo_title">折线图</h3>
+        <el-divider content-position="left">折线图</el-divider>
         <h5 class="demo_txt"></h5>
         <div class="demo_con">
           <div class="demo_main">
@@ -28,7 +28,7 @@
         </div>
       </el-col>
       <el-col :span="12" :xs="24">
-        <h3 class="demo_title">饼图</h3>
+        <el-divider content-position="left">饼图</el-divider>
         <h5 class="demo_txt"></h5>
         <div class="demo_con">
           <div class="demo_main">
@@ -45,7 +45,7 @@
         </div>
       </el-col>
       <el-col :span="12" :xs="24">
-        <h3 class="demo_title">柱状图</h3>
+        <el-divider content-position="left">柱状图</el-divider>
         <h5 class="demo_txt"></h5>
         <div class="demo_con">
           <div class="demo_main">
@@ -62,7 +62,7 @@
         </div>
       </el-col>
       <el-col :span="12" :xs="24">
-        <h3 class="demo_title">双柱状图</h3>
+        <el-divider content-position="left">双柱状图</el-divider>
         <h5 class="demo_txt"></h5>
         <div class="demo_con">
           <div class="demo_main">
