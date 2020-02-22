@@ -64,7 +64,7 @@ export const constantRoutes = [
   //   children: [{
   //     path: 'resume',
   //     name: 'Resume',
-  //     component: () => import('@/views/work-notes/resume/index'),
+  //     component: () => import('@/views/resume/index'),
   //     meta: { title: '个人简历', icon: 'el-icon-user' }
   //   }]
   // },
