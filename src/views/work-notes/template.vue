@@ -2,10 +2,11 @@
   <div class="demo_container">
     <el-row>
       <el-col :span="12" :xs="24">
-        <h3 class="demo_title">title</h3>
+        <el-divider content-position="left">title</el-divider>
         <h5 class="demo_txt">txt</h5>
         <div class="demo_con">
-          <div class="demo_main"></div>
+          <div class="demo_main nav_demo_main">
+          </div>
           <div class="demo_link">
             <el-link
               href="https://github.com/liuzhenghe30265/vue-admin-template/tree/master/src/views/work-notes/navigation-effect/index.vue"

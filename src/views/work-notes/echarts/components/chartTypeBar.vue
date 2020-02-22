@@ -3,7 +3,7 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-06 15:17:21
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-06 17:08:27
+ * @Last Modified time: 2020-02-13 11:07:17
  * @Description: 柱状图
  */
 
@@ -84,7 +84,7 @@ export default {
         color: ['#4390ee', '#ff8604', '#71EC00'],
         xAxis: {
           type: 'category',
-          data: ['type1', 'type2', 'typ23']
+          data: ['type1', 'type2', 'type3']
         },
         yAxis: {
           type: 'value'
