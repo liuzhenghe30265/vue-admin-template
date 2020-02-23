@@ -3,7 +3,7 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-06 00:53:06
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-06 10:49:41
+ * @Last Modified time: 2020-02-22 11:04:56
  * @Description: 工作笔记路由配置
  */
 
@@ -34,6 +34,15 @@ const projectNote = {
     name: 'ECharts',
     meta: {
       title: 'ECharts',
+      icon: 'el-icon-pie-chart',
+      noCache: true
+    }
+  }, {
+    path: '/canvas',
+    component: () => import('@/views/work-notes/canvas/index'),
+    name: 'Canvas',
+    meta: {
+      title: 'Canvas',
       icon: 'el-icon-pie-chart',
       noCache: true
     }
