@@ -3,7 +3,7 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-06 15:17:21
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-06 17:05:01
+ * @Last Modified time: 2020-02-26 18:44:57
  * @Description: 双柱状图
  */
 
@@ -18,8 +18,30 @@ import echarts from 'echarts'
 export default {
   name: 'ChartTypeBar',
   props: {
-    series: {
+    // 年龄段
+    age: {
       type: Array,
+      default() {
+        return []
+      }
+    },
+    // 女性
+    female: {
+      type: Array,
+      default() {
+        return []
+      }
+    },
+    // 男性
+    male: {
+      type: Array,
+      default() {
+        return []
+      }
+    },
+    // 最大值
+    maximum: {
+      type: Number,
       default() {
         return []
       }
@@ -32,7 +54,25 @@ export default {
   },
   computed: {},
   watch: {
-    series: {
+    age: {
+      handler: function(val, oldVal) {
+        this.drawChart()
+      },
+      deep: true
+    },
+    female: {
+      handler: function(val, oldVal) {
+        this.drawChart()
+      },
+      deep: true
+    },
+    male: {
+      handler: function(val, oldVal) {
+        this.drawChart()
+      },
+      deep: true
+    },
+    maximum: {
       handler: function(val, oldVal) {
         this.drawChart()
       },
@@ -100,7 +140,8 @@ export default {
             name: '人',
             splitNumber: 2,
             min: 0,
-            max: 500,
+            // max: 10000,
+            max: this.maximum,
             inverse: true,
             gridIndex: 0,
             axisTick: {
@@ -132,7 +173,8 @@ export default {
             type: 'value',
             name: '人',
             min: 0,
-            max: 500,
+            // max: 10000,
+            max: this.maximum,
             splitNumber: 2,
             gridIndex: 1,
             axisTick: {
@@ -166,7 +208,8 @@ export default {
             type: 'category',
             gridIndex: 0,
             inverse: true,
-            data: ['18岁以上', '6-18岁', '6岁以下'],
+            // data: ['18岁以上', '6-18岁', '6岁以下'],
+            data: this.age,
             axisTick: {
               show: false
             },
@@ -181,7 +224,8 @@ export default {
             type: 'category',
             gridIndex: 1,
             inverse: true,
-            data: ['18岁以上', '6-18岁', '6岁以下'],
+            // data: ['18岁以上', '6-18岁', '6岁以下'],
+            data: this.age,
             axisTick: {
               show: false
             },
@@ -241,7 +285,8 @@ export default {
               }
             },
             animationDuration: 3000,
-            data: [150, 250, 350]
+            // data: [150, 250, 350]
+            data: this.female
           },
           {
             name: '男',
@@ -272,7 +317,8 @@ export default {
                 barBorderRadius: [0, 20, 20, 0]
               }
             },
-            data: [100, 200, 300]
+            // data: [100, 200, 300]
+            data: this.male
           }
         ]
       }
