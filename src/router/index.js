@@ -6,6 +6,7 @@ Vue.use(Router)
 /* Layout */
 import Layout from '@/layout'
 import workNotes from './modules/workNotes' // 项目笔记路由
+import toolkit from './modules/toolkit' // 工具箱路由
 
 /**
  * Note: sub-menu only appear when route children.length >= 1
@@ -57,6 +58,7 @@ export const constantRoutes = [
   },
 
   workNotes, // 工作笔记路由
+  toolkit, // 工具箱
 
   // {
   //   path: '/resume',
