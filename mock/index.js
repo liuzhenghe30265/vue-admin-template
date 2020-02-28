@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-02-05 21:28:03
+ * @LastEditTime: 2020-02-27 17:13:43
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /vue-admin-template/mock/index.js
+ */
 import Mock from 'mockjs'
 import { param2Obj } from '../src/utils'
 

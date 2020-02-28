@@ -1,5 +1,10 @@
-/**
- * Created by PanJiaChen on 16/11/18.
+/*
+ * @Author: liuzhenghe30265
+ * @Email: 15901450207@163.com
+ * @Date: 2020-02-27 11:21:31
+ * @Last Modified by: liuzhenghe30265
+ * @Last Modified time: 2020-02-28 11:16:12
+ * @Description: 工具
  */
 
 /**
@@ -37,7 +42,9 @@ export function parseTime(time, cFormat) {
   const time_str = format.replace(/{([ymdhisa])+}/g, (result, key) => {
     const value = formatObj[key]
     // Note: getDay() returns 0 on Sunday
-    if (key === 'a') { return ['日', '一', '二', '三', '四', '五', '六'][value ] }
+    if (key === 'a') {
+      return ['日', '一', '二', '三', '四', '五', '六'][value]
+    }
     return value.toString().padStart(2, '0')
   })
   return time_str
@@ -87,6 +94,7 @@ export function formatTime(time, option) {
 }
 
 /**
+ * @description 返回 url 参数
  * @param {string} url
  * @returns {Object}
  */
@@ -97,11 +105,11 @@ export function param2Obj(url) {
   }
   return JSON.parse(
     '{"' +
-      decodeURIComponent(search)
-        .replace(/"/g, '\\"')
-        .replace(/&/g, '","')
-        .replace(/=/g, '":"')
-        .replace(/\+/g, ' ') +
-      '"}'
+    decodeURIComponent(search)
+      .replace(/"/g, '\\"')
+      .replace(/&/g, '","')
+      .replace(/=/g, '":"')
+      .replace(/\+/g, ' ') +
+    '"}'
   )
 }

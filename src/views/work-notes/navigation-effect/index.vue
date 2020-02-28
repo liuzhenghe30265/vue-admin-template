@@ -3,7 +3,7 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-06 00:52:41
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-09 22:05:50
+ * @Last Modified time: 2020-02-27 10:48:17
  * @Description: 导航效果
  */
 
@@ -155,6 +155,10 @@ export default {
       cursor: pointer;
       float: left;
       margin-right: 10px;
+      transition: all 0.3s;
+    }
+    li:hover {
+      color: red;
     }
   }
 }
