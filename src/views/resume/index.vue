@@ -36,7 +36,7 @@
           <div class="demo_con skillLevels_con">
             <el-row>
               <el-col :span="6" :md="6" :sm="12" :xs="24">
-                <div class="sc_li">
+                <!-- <div class="sc_li">
                   <span>JavaScript</span>
                   <el-progress :percentage="50"></el-progress>
                 </div>
@@ -47,7 +47,7 @@
                 <div class="sc_li">
                   <span>JavaScript</span>
                   <el-progress :percentage="50"></el-progress>
-                </div>
+                </div>-->
               </el-col>
             </el-row>
           </div>
@@ -75,12 +75,15 @@
                 :xs="24"
               >
                 <div class="pc_con">
-                  <el-image
-                    class="image_con"
-                    :src="item.imgUrl"
-                    fit="contain"
-                    :preview-src-list="projectExperiencePicList"
-                  ></el-image>
+                  <div class="image_con" @click="openDialogFun(item)">
+                    <img
+                      :src="item.imgUrl | chooseImage"
+                      width="100%"
+                      height="100%"
+                      alt
+                      style="object-fit: contain;"
+                    />
+                  </div>
                   <div class="picture_txt">
                     <a :href="item.url" target="_blank">
                       <div class="pi_name">{{item.name}}</div>
@@ -95,19 +98,43 @@
         </el-col>
       </el-row>
     </div>
+    <!-- 弹窗 -->
+    <el-dialog
+      :title="dialogTitle"
+      :visible.sync="dialogVisible"
+      width="60%"
+      :before-close="handleClose"
+    >
+      <el-carousel indicator-position="outside">
+        <el-carousel-item v-for="(item,index) of projectPicList" :key="index">
+          <img :src="item" width="100%" height="100%" alt style="object-fit: contain;" />
+        </el-carousel-item>
+      </el-carousel>
+      <div class="intro">{{projectDetails.intro}}</div>
+    </el-dialog>
+    <!-- 弹窗 E -->
   </div>
 </template>
 <script>
 import resumeData from '@mock/resume.json'
 export default {
   name: '',
+  filters: {
+    // 返回第一张图片
+    chooseImage: function(value) {
+      return value.split(',')[0]
+    }
+  },
   data() {
     return {
       resumeData: '',
       educationData: '',
       educationPicList: [],
       projectExperience: '',
-      projectExperiencePicList: []
+      dialogVisible: false,
+      dialogTitle: '',
+      projectDetails: {},
+      projectPicList: []
     }
   },
   computed: {},
@@ -122,13 +149,23 @@ export default {
       for (let i = 0; i < pictures.length; i++) {
         this.educationPicList.push(pictures[i].url)
       }
-      this.projectExperience = resumeData.projectExperience // 教育情况
-      const projectExperiencePicList = this.projectExperience.items
-      for (let i = 0; i < projectExperiencePicList.length; i++) {
-        this.projectExperiencePicList.push(projectExperiencePicList[i].imgUrl)
+      this.projectExperience = resumeData.projectExperience // 项目经历
+      const items = this.projectExperience.items
+      for (let i = 0; i < items.length; i++) {
+        items[i].projectPicList = items[i].imgUrl.split(',')
       }
-
-      console.log(this.educationData)
+    },
+    openDialogFun(item) {
+      this.dialogVisible = true
+      this.projectDetails = item
+      this.dialogTitle = item.name
+      this.projectPicList = item.projectPicList
+    },
+    handleClose() {
+      this.dialogVisible = false
+    },
+    chooseImage(value) {
+      return value.split(',')[0]
     }
   }
 }

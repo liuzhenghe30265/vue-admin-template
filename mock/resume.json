@@ -42,6 +42,54 @@
   "projectExperience": {
     "name": "项目经历",
     "items": [{
+        "url": "",
+        "name": "宜昌重大疫情联防联联控网格化管理信息系统",
+        "date": "2019-01-28",
+        "intro": "",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/00831rSTly1gcc7rv5j4vj31hc0u0773.jpg,https://tva1.sinaimg.cn/large/00831rSTly1gcc7rzgk6cj31hc0u017z.jpg,https://tva1.sinaimg.cn/large/00831rSTly1gcc7s1sz4mj31hc0u0dhn.jpg,https://tva1.sinaimg.cn/large/00831rSTly1gcc7saxxsqj31hc0u0mz8.jpg,https://tva1.sinaimg.cn/large/00831rSTly1gcc7s7aus2j31hc0u0wg9.jpg,https://tva1.sinaimg.cn/large/00831rSTly1gcc7s48acmj31hc0u0jtv.jpg"
+      },
+      {
+        "url": "",
+        "name": "大武口综合管理平台--大屏展示系统",
+        "date": "2020-01-08",
+        "intro": "",
+        "technology": [],
+        "imgUrl": ""
+      },
+      {
+        "url": "",
+        "name": "宜昌市共抓长江大保护综合信息平台",
+        "date": "2019-12-17",
+        "intro": "对一张图现有功能进行完善，开发新的功能，对各专题与地图的交互效果进行优化。",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/00831rSTly1gce92w3z8oj31gp0ouk3x.jpg"
+      },
+      {
+        "url": "",
+        "name": "大武口教育网格化管理系统",
+        "date": "2019-11-27",
+        "intro": "参与大武口教育网格化管理系统的开发，问题修改，界面样式调整。",
+        "technology": [],
+        "imgUrl": ""
+      },
+      {
+        "url": "",
+        "name": "王顶堤商贸区网格化综合治理平台",
+        "date": "2019-11-11",
+        "intro": "参与王顶堤商贸大屏展示及后台维护系统的开发。问题修改，界面样式调整。",
+        "technology": [],
+        "imgUrl": "https://tva1.sinaimg.cn/large/00831rSTly1gce92s0az2j31340g0h1w.jpg,https://tva1.sinaimg.cn/large/00831rSTly1gce92s9nsyj316j0nxdx8.jpg"
+      },
+      {
+        "url": "",
+        "name": "宁河智慧社区平台",
+        "date": "2019-11-07",
+        "intro": "参与宁河智慧社区平台-精细管理系统的开发，完成商户管理和车辆管理的功能部分。",
+        "technology": [],
+        "imgUrl": ""
+      },
+      {
         "url": "http://www.longdeyanyuan.com/",
         "name": "龙德燕园基金",
         "date": "2018-08-30",

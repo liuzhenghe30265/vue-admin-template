@@ -60,16 +60,16 @@ export const constantRoutes = [
   workNotes, // 工作笔记路由
   toolkit, // 工具箱
 
-  // {
-  //   path: '/resume',
-  //   component: Layout,
-  //   children: [{
-  //     path: 'resume',
-  //     name: 'Resume',
-  //     component: () => import('@/views/resume/index'),
-  //     meta: { title: '个人简历', icon: 'el-icon-user' }
-  //   }]
-  // },
+  {
+    path: '/resume',
+    component: Layout,
+    children: [{
+      path: 'resume',
+      name: 'Resume',
+      component: () => import('@/views/resume/index'),
+      meta: { title: '个人简历', icon: 'el-icon-user' }
+    }]
+  },
 
   {
     path: 'blog',

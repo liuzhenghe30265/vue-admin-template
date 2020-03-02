@@ -3,7 +3,7 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-09 16:34:15
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-09 21:39:12
+ * @Last Modified time: 2020-03-02 10:40:13
  * @Description: Description
  */
 
@@ -17,6 +17,9 @@
           width: 100%;
           height: 250px;
           padding: 10px;
+          position: relative;
+          display: inline-block;
+          overflow: hidden;
         }
         .picture_txt {
           position: absolute;
@@ -31,10 +34,15 @@
             color: #fff;
             .pi_name {
               font-weight: bold;
-              padding: 5px 0;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              height: 28px;
+              line-height: 28px;
+              padding-right: 30px;
             }
             .pi_date {
-                font-size: 12px;
+              font-size: 12px;
             }
             .pi_link {
               position: absolute;
