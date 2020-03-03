@@ -1,3 +1,12 @@
+/*
+ * @Author: liuzhenghe30265
+ * @Email: 15901450207@163.com
+ * @Date: 2020-03-03 09:55:21
+ * @Last Modified by: liuzhenghe30265
+ * @Last Modified time: 2020-03-03 11:08:05
+ * @Description: 简历
+ */
+
 <template>
   <div>
     <div class="demo_container">
@@ -87,6 +96,9 @@
                   <div class="picture_txt">
                     <a :href="item.url" target="_blank">
                       <div class="pi_name">{{item.name}}</div>
+                      <div class="pi_technology">
+                        <b v-for="(t,tindex) of item.technology" :key="tindex">{{t}}</b>
+                      </div>
                       <div class="pi_date">{{item.date}}</div>
                       <i class="pi_link el-icon-link"></i>
                     </a>
@@ -104,13 +116,17 @@
       :visible.sync="dialogVisible"
       width="60%"
       :before-close="handleClose"
+      class="dialog"
     >
+      <div class="technology">
+        <el-tag v-for="(item,index) of projectDetails.technology" :key="index">{{item}}</el-tag>
+      </div>
+      <div class="intro">{{projectDetails.intro}}</div>
       <el-carousel indicator-position="outside">
-        <el-carousel-item v-for="(item,index) of projectPicList" :key="index">
+        <el-carousel-item v-for="(item,index) of projectDetails.projectPicList" :key="index">
           <img :src="item" width="100%" height="100%" alt style="object-fit: contain;" />
         </el-carousel-item>
       </el-carousel>
-      <div class="intro">{{projectDetails.intro}}</div>
     </el-dialog>
     <!-- 弹窗 E -->
   </div>
@@ -133,8 +149,7 @@ export default {
       projectExperience: '',
       dialogVisible: false,
       dialogTitle: '',
-      projectDetails: {},
-      projectPicList: []
+      projectDetails: {}
     }
   },
   computed: {},
@@ -159,7 +174,7 @@ export default {
       this.dialogVisible = true
       this.projectDetails = item
       this.dialogTitle = item.name
-      this.projectPicList = item.projectPicList
+      console.log(item)
     },
     handleClose() {
       this.dialogVisible = false
