@@ -15,6 +15,9 @@ import router from './router'
 import '@/icons' // icon
 import '@/permission' // permission control
 
+import '@/utils/dialog' // Element Dialog 对话框拖拽功能
+import './iview.js' // 按需引入 iView 组件
+
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api

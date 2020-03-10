@@ -3,7 +3,7 @@
  * @Email: 15901450207@163.com
  * @Date: 2020-02-06 00:53:06
  * @Last Modified by: liuzhenghe30265
- * @Last Modified time: 2020-02-27 10:12:47
+ * @Last Modified time: 2020-03-03 11:26:16
  * @Description: 工作笔记路由配置
  */
 
@@ -36,6 +36,15 @@ const projectNote = {
       title: 'ECharts',
       icon: 'el-icon-pie-chart',
       noCache: true
+    }
+  }, {
+    path: '/popup-window',
+    component: () => import('@/views/work-notes/popup-window/index'),
+    name: 'popup-window',
+    meta: {
+      title: '弹窗',
+      icon: 'el-icon-monitor',
+      noCache: false
     }
   }, {
     path: '/canvas',
